@@ -51,11 +51,11 @@
 }
 
 .btn-list {
-    margin-top: 20%;
+    margin-top: 24%;
 }
 
 .btn-img {
-    width: 30%;
+    width: 20%;
 }
 
 .center {
@@ -74,11 +74,11 @@
 }
 
 .btn-gift {
-    width: 54%;
+    width: 60%;
 }
 
 .btn-card {
-    width: 40%;
+    width: 24%;
     margin-right: 40%;
 }
 
@@ -87,7 +87,7 @@
 }
 
 .download {
-    width: 74%;
+    width: 50%;
     display: block;
     margin: 0 auto 0;
 }
