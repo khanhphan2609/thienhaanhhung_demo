@@ -24,6 +24,11 @@
     color: #FBFF91;
 }
 
+.navbar__item:hover {
+    filter: brightness(120%);
+    animation: scaleUp .5s linear infinite;
+}
+
 /* .navbar__item a:after {
     content: " ";
     height: 12px;
