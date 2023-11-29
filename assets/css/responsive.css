@@ -137,6 +137,9 @@
         margin: 0 auto 0;
         animation: none;
     }
+    .hide-mobile {
+        display: none;
+    }
 }
 
 /* Tablet */
