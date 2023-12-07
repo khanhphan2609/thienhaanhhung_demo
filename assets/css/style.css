@@ -172,7 +172,7 @@ button.close {
 
 /* Dialog Video */
 .modal-dialog__video {
-    width: 560px;
-    height: 315px;
+    width: 78vh;
+    height: 50vh;
     margin-top: 10%;
 }
