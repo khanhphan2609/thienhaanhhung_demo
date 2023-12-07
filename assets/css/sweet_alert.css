@@ -1,0 +1,34 @@
+.swal-modal {
+    font-family: 'Arial', sans-serif;
+    background-color: #f8f8f8;
+    border-radius: 8px;
+}
+
+.sa-title {
+    color: #333;
+    font-size: 24px;
+}
+
+.swal-text {
+    color: #555;
+    font-size: 26px;
+}
+
+.icon.success {
+    background-color: #5cb85c;
+}
+
+.swal-footer {
+
+}
+
+.swal-button--confirm {
+    background-color: #5cb85c;
+    color: #fff;
+    border: 1px solid #4cae4c;
+    margin-top: 15px;
+}
+
+.swal-button:not([disabled]):hover {
+    background-color: #7ca57c;
+}

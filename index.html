@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ThienHaAnhHung</title>
+    <link rel="stylesheet" href="/assets/font/fontawesome-free-6.4.2-web/css/all.min.css">
+    <!-- Add SweetAlert library -->
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <!-- Add jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="/assets/css/sweet_alert.css">
+    
+    <link rel="stylesheet" href="/assets/css/grid.css">
+    <link rel="stylesheet" href="/assets/css/base.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/responsive.css">
+</head>
+<body>
+    <div class="wrapper">
+        <label for="nav-mobile-input" class="nav__mobile hide-on-pc">
+            <i class="fa-solid fa-bars"></i>
+        </label>
+
+        <input type="checkbox" class="nav_input" id="nav-mobile-input" style="display: none;">
+
+        <label for="nav-mobile-input" class="nav__overlay hide-on-pc"></label>
+        <div class="navbar__mobile hide-on-pc">
+            <label for="nav-mobile-input" class="navbar__mobile-close">
+                <i class="fa-solid fa-xmark"></i>
+            </label>
+            <ul class="navbar__mobile-list">
+                <li class="col l-3 navbar__mobile-item">
+                    <a href="/">ENTER CODE</a>
+                </li>
+                <li class="col l-3 navbar__mobile-item">
+                    <a href="/">FANPAGE</a>
+                </li>
+                <li class="col l-3 navbar__mobile-item">
+                    <a href="/">INSTRUCT</a>
+                </li>
+                <li class="col l-3 navbar__mobile-item">
+                    <a href="/">CHAT ADMIN</a>
+                </li>
+            </ul>
+        </div>
+        <div class="grid">
+            <div class="row no-gutters navbar">
+                <div class="col l-4 m-4 c-4"></div>
+                <div class="col l-4 m-4 c-4">
+                    <div class="navbar__list">
+                            <a href="/" class="navbar__item">CODE</a>
+                            <span>|</span>
+                            <a href="/" class="navbar__item">FANPAGE</a> 
+                            <span>|</span>
+                            <a href="/" class="navbar__item">INSTRUCT</a> 
+                            <span>|</span>
+                            <a href="/" class="navbar__item">CHAT</a>
+                    </div>
+                </div>
+                <div class="col l-4 m-4 c-4"></div>
+            </div>
+            <div class="row no-gutters">
+                <div class="col l-4 m-4 c-4"></div>
+                <div class="col l-4 m-4 c-4">
+                    <a a href="javascript:void(0);" class="btn-dialog-play play">
+                        <img src="/assets/img/pc/btn-playtrailer.png" alt="" class="play__img">
+                    </a>
+                </div>
+                <div class="col l-4 m-4 c-4"></div>
+            </div>
+
+            <div class="row no-gutters btn-list">
+                <div class="col l-4 m-4 c-4 center">
+                    <a href="javascript:void(0);" class="btn-commingsoon" class="btn-item">
+                        <img src="/assets/img/pc/btn-home.png" alt="" class="btn-img btn-home">
+                    </a>
+                </div>
+                <div class="col l-4 m-4 c-4 center">
+                    <a href="javascript:void(0);" class="btn-dialog" class="btn-item">
+                        <img src="/assets/img/pc/btn-nhanqua.png" alt="" class="btn-img btn-gift">
+                    </a>
+                </div>
+                <div class="col l-4 m-4 c-4 center">
+                    <a  href="javascript:void(0);" class="btn-commingsoon" class="btn-item">
+                        <img src="/assets/img/pc/btn-napthe.png" alt="" class="btn-img btn-card">
+                    </a>
+                </div>
+            </div>
+
+            <div class="download-app row no-gutters">
+                <div class="col l-4 m-4 c-4"></div>
+                <div class="col l-4 m-4 c-4">
+                    <div class="row no-gutters">
+                        <div class="col l-6 m-12 c-12">
+                            <a href="javascript:void(0);" class="btn-commingsoon">
+                                <img src="/assets/img/pc/btn-ios.png" alt="" class="download appstore">
+                            </a>
+                        </div>
+                        <div class="col l-6 m-12 c-12">
+                            <a href="javascript:void(0);" class="btn-commingsoon">
+                                <img src="/assets/img/pc/btn-android.png" alt="" class="download androi">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col l-4 m-4 c-4"></div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Modal -->
+        <!-- Gift -->
+    <div class="modal fade" id="dialog" tabindex="-1" role="dialog" 
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-bg">
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">X</span>
+                    </button>
+                    <div class="modal-text">
+                        <h3 class="modal-title" style="text-align:center;font-weight: bold;">NHẬP MAIL NHẬN QUÀ</h3>
+                        <div class="content-table-dialog">
+                            <form class="modal-form">
+                                <input type="email" id="email" name="email" class="modal-input" placeholder="Enter your email" required>
+                            </form>
+                            <button type="submit" class="modal-submit">Submit</button>
+                        </div>
+                    </div>
+                 </div>
+            </div>
+        </div>
+    </div>
+
+        <!-- Play -->
+    <div class="modal fade" id="dialog_video" tabindex="-1" role="dialog" 
+        aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <iframe class="modal-dialog__video" src="https://www.youtube.com/embed/9LW7WOo8Fyg?si=HvcswP0h_jeSiZbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+    </div>
+    
+    <script src="/assets/js/main.js"></script>
+</body>
+</html>
