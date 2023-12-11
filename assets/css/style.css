@@ -180,8 +180,22 @@ button.close {
 #dialog_video {
     padding-right: 3% !important;
 }
-.modal-dialog__video {
+
+.modal_video-content {
+    height: 10vh !important;
+}
+
+.close-video {
+    margin: -6% !important;
+}
+
+.modal-dialog_video iframe {
+    width: 68vh;
+    height: 38vh;
+}
+
+/* .modal-dialog__video {
     width: 71vh;
     height: 40vh;
     margin-top: 8%;
-}
+} */

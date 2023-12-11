@@ -175,10 +175,15 @@
     }
 
     /* Dialog Video */
-    .modal-dialog__video {
+    .close-video {
+        margin: -5% !important;
+        margin-top: -10% !important;
+    }
+
+    .modal-dialog_video iframe {
         width: 100%;
-        height: 100%;
-        margin: 0 1%;
+        max-height: 23vh;
+        margin-left: 1%;
     }
 
     /* Sweet Alert */

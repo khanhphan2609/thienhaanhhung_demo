@@ -138,8 +138,15 @@
         <!-- Play -->
     <div class="modal fade" id="dialog_video" tabindex="-1" role="dialog" 
         aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
-        <div class="modal-dialog modal-dialog-centered" role="document">
-            <iframe class="modal-dialog__video" src="https://www.youtube.com/embed/9LW7WOo8Fyg?si=HvcswP0h_jeSiZbh" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <div class="modal-dialog modal-dialog_video modal-dialog-centered" role="document" style="background-image: none;">
+            <div class="modal-content modal_video-content">
+                <div class="modal_video-bg">
+                    <button type="button" class="close close-video" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">X</span>
+                    </button>
+                    <iframe src="https://www.youtube.com/embed/sJt_i0hOugA?si=2qZwhKEvqDhbTW8g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                 </div>
+            </div>
         </div>
     </div>
     
