@@ -123,18 +123,23 @@
 
 /* Modal */
 .dialog {
+
 }
+
+
 .modal-dialog {
-    margin: 10% 34%;
+    width: 84vh;
+    margin: 12vw 32vw 15vw 35vw;
 }
 
 .modal-content {
-    height: 38vh;
+    height: 6vh;
+    width: 28vw;
     background-color: transparent !important;
 }
 
-.modal-bg {
-    height: 112%;
+#dialog .modal-bg {
+    height: 52vh;
     color: #fff;
     background-size: 100%;
     background-repeat: no-repeat;
@@ -144,17 +149,17 @@
 button.close {
     color: #fff;
     opacity: 1;
-    margin: 5%;
+    margin: 1vw;
     font-size: 36px;
 }
 
 .modal-title {
-    font-size: 32px;
+    font-size: 1.6vw;
     padding: 6% 0 4% 14%;
 }
 
 .content-table-dialog {
-    margin: 6% 14% 8%;
+    margin: 0 3vw;
     font-size: 24px;
 }
 
@@ -170,28 +175,29 @@ button.close {
 }
 
 .modal-submit {
-    padding: 8px 14px;
-    margin: 6% 38%;
+    padding: 0.6vw 1vw;
+    margin: 1vw 12vh 1vw 8vw;
     background-color: #9C313C;
-    border-radius: 20px;
+    border-radius: 2vw;
 }
 
 /* Dialog Video */
 #dialog_video {
-    padding-right: 3% !important;
+    
 }
 
 .modal_video-content {
-    height: 10vh !important;
+    width: 56vw;
+    margin: 10vw 22vw 0 25vw;
 }
 
-.close-video {
-    margin: -6% !important;
+#dialog_video .close-video {
+    margin: 1vw;
 }
 
 .modal-dialog_video iframe {
-    width: 68vh;
-    height: 38vh;
+    width: 52vw;
+    height: 30vw;
 }
 
 /* .modal-dialog__video {
