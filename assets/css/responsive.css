@@ -146,7 +146,9 @@
         margin: 50% 2%;
     }
     .modal-content {
-        height: 35vh;
+        height: 26vh;
+    }
+    .modal-bg {
         background-color: transparent !important;
         background-image: url(/assets/img/bg_popup.png);
         background-repeat: no-repeat;
@@ -174,9 +176,9 @@
 
     /* Dialog Video */
     .modal-dialog__video {
-        width: 86%;
-        height: 28vh;
-        margin-left: 3vh;
+        width: 100%;
+        height: 100%;
+        margin: 0 1%;
     }
 
     /* Sweet Alert */

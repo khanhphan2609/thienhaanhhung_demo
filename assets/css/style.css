@@ -122,17 +122,23 @@
 
 
 /* Modal */
+.dialog {
+}
 .modal-dialog {
-    margin: 10% auto;
+    margin: 10% 34%;
 }
 
 .modal-content {
-    height: 49vh;
+    height: 38vh;
     background-color: transparent !important;
-    background-image: url(/assets/img/bg_popup.png);
-    background-repeat: no-repeat;
+}
+
+.modal-bg {
+    height: 112%;
     color: #fff;
     background-size: 100%;
+    background-repeat: no-repeat;
+    background-image: url(/assets/img/bg_popup.png);
 }
 
 button.close {
@@ -171,8 +177,11 @@ button.close {
 }
 
 /* Dialog Video */
+#dialog_video {
+    padding-right: 3% !important;
+}
 .modal-dialog__video {
-    width: 78vh;
-    height: 50vh;
-    margin-top: 10%;
+    width: 71vh;
+    height: 40vh;
+    margin-top: 8%;
 }
